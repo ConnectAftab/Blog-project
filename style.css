@@ -1,0 +1,127 @@
+body{
+    font-family:cursive;
+    padding:0 ;
+    margin:0 ;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+  
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:sans-serif;
+    font-weight: 500;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    margin: 0;
+}
+h2{
+    margin: 40px 0 ;
+    font-size: 50px;
+    
+    letter-spacing: -0.5px;
+}
+h3{
+    font-size: 38px;
+    text-transform: capitalize;
+}
+h4{
+    font-size: 30px;
+    letter-spacing: 0.25px;
+}
+h5{
+    font-size: 24px;
+   
+}
+h6{
+    font-size: 20px;
+
+}
+.info  {
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+span{
+    color: orange ;
+    text-transform: uppercase;
+}
+.first-para{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+.text-transform{
+    color: orange;
+}
+cite{
+    font-weight: bolder;
+    color: orange;
+    font-style: italic;
+}
+.quote{
+    border-left: 2px solid orange;
+    padding-left: 16px;
+    margin:  32px 0 40px 32px;
+}
+.quote cite {
+    display: block;
+    margin-left: 16px;
+}
+code{
+    text-transform: bold;
+    color: orange;
+}
+footer{
+    background-color: #863ae8;
+    height: 50px ;
+}
+footer ul {
+    list-style: none;
+    text-align: center;
+    padding:15px 0 ;
+   
+    
+}
+footer ul li{
+    display: inline;
+    padding: 0 16px;
+}
+footer ul li a  {
+   text-decoration: none;
+  
+   color: white;
+}footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.hero 
+{background-color:#863ae8 ;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero hr {
+    width: 50%;
+    margin: 32px 0;
+}
+.hero h1, .hero p {
+    width: 75%;
+    max-width: 900px;
+    margin: 16px 0 ;
+}
+
